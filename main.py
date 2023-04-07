@@ -8,5 +8,5 @@ mr = st.number_input('Masukkan nilai mr')
 tombol = st.button('Hitung nilai molaritas')
 
 if tombol:
-        nilai molaritas = bobot/(mr*volume)
+        nilai_molaritas = bobot/(mr*volume)
         st.success(f'Nilai molaritas adalah {nilai_molaritas}')
